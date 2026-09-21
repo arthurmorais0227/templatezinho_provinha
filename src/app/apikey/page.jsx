@@ -12,7 +12,7 @@ export default function ApiKeyPage() {
     useEffect(() => {
         async function buscarSeries() {
             try {
-                const resp = await axios.get(`${process.env.NEXT_PUBLIC_API_SERIES}`, {
+                const resp = await axios.get(`${process.env.NEXT_PUBLIC_URL_SERIES}`, {
                     headers: {
                         'x-api-key': process.env.NEXT_PUBLIC_API_KEY,
                     },

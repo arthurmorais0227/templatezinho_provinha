@@ -1,4 +1,4 @@
-import { KeyRound } from 'lucide-react';
+import { HardDrive, KeyRound } from 'lucide-react';
 
 export const examples = [
     {
